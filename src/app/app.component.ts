@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import { ProductsBannerComponent } from './products-banner/products-banner.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, ],
+  imports: [ProductsBannerComponent],
   selector: 'gumis-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
